@@ -104,7 +104,7 @@ def EvaluateModelAccuracy(model, X_test, y_test):
 
 if __name__ == '__main__':
     # Load the dataset
-    dataFilepath = '/Users/account1/Documents/Blog/ML Algorithms/iris.data'
+    dataFilepath = 'YOUR FILEPATH/iris.data'
     columns = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
     dataset = pd.read_csv(dataFilepath, names=columns)
 
